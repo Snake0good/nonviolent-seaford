@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="style.css">
+
     <title>NonViolent Seaford</title>
 </head>
 <body>
@@ -29,12 +31,17 @@
         </ul>
     </nav>
 
-    <section class="h-screen">
+    <section class="h-screen static">
         <img 
             src="https://images.unsplash.com/photo-1618795508031-b95690ba214b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" 
             alt="protect-peaceful" 
-            class="h-full object-cover"
+            class="h-full object-cover w-full z-0"
         />
+        <a href="https://paceebene.org/action-days">
+            <div class="absolute top-1/3 left-1/4 w-1/2 text-white bg-black py-6 px-8 rounded-full text-xl font-bold opacity-80 hover:bg-white hover:text-black text-center duration-200">
+                Thank You for Supporting Us during the Nonviolence Action Days!
+            </div>
+        </a>
         <div class="w-full flex justify-center -translate-y-14">
             <a href="#blog-titles">
                 <i class="fas fa-arrow-down text-5xl text-white animate-bounce"></i>
@@ -44,27 +51,54 @@
 
 
     <!-- blog titles -->
-    <section id="blog-titles" class="my-10 p-4">
-        <h1 class="text-4xl mb-10">Latest News</h1>
-        <div class="w-full flex">
-            <div class="w-1/2 px-2">
+    <section id="blog-titles" class="my-24 p-4 z-40">
+        <h1 class="text-4xl mb-10">Latest Articles</h1>
+        <div class="w-full flex mb-5">
+            <div class="w-1/2 px-2 max-w-2xl rounded-xl hover:shadow-xl">
                 <a href="#">
                     <img 
                         src="https://images.unsplash.com/photo-1591634466335-806021f30b97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVvcGxlJTIwcHJvdGVzdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" 
                         alt="protest-pic" 
-                        class="h-44 w-full object-cover"
+                        class="h-44 w-full object-cover md:h-64"
                         />
                     <h1 class="font-bold">Title of Article</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quia quos laboriosam sint rem facilis voluptatibus adipisci.</p>
                     <p class="text-gray-500 text-md italic">Maya Angelou</p>
                 </a>
             </div>
-            <div class="w-1/2 px-2">
+            <div class="w-1/2 px-2 max-w-2xl rounded-xl hover:shadow-xl">
                 <a href="#">
                     <img 
                         src="https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60" alt="protest-pic" 
-                        class="h-44 w-full object-cover"
+                        class="h-44 w-full object-cover md:h-64"
                         />
                     <h1 class="font-bold">Title of Article</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quia quos laboriosam sint rem facilis voluptatibus adipisci.</p>
+                    <p class="text-gray-500 text-md italic">John Doe</p>
+                </a>
+            </div>
+        </div>
+        <div class="w-full flex mb-5">
+            <div class="w-1/2 px-2 max-w-2xl rounded-xl hover:shadow-xl">
+                <a href="#">
+                    <img 
+                        src="https://images.unsplash.com/photo-1485459416579-6d3292a13a69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+                        alt="protest-pic" 
+                        class="h-44 w-full object-cover md:h-64"
+                        />
+                    <h1 class="font-bold">Title of Article</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quia quos laboriosam sint rem facilis voluptatibus adipisci.</p>
+                    <p class="text-gray-500 text-md italic">Maya Angelou</p>
+                </a>
+            </div>
+            <div class="w-1/2 px-2 max-w-2xl rounded-xl hover:shadow-xl">
+                <a href="#">
+                    <img 
+                        src="https://images.unsplash.com/photo-1542353436-312f0e1f67ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=942&q=80" alt="protest-pic" 
+                        class="h-44 w-full object-cover md:h-64"
+                        />
+                    <h1 class="font-bold">Title of Article</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quia quos laboriosam sint rem facilis voluptatibus adipisci.</p>
                     <p class="text-gray-500 text-md italic">John Doe</p>
                 </a>
             </div>
@@ -73,11 +107,11 @@
     
 
     <!-- seaford helps people -->
-    <section class="h-screen relative">
+    <section class="h-screen w-full relative mt-24">
         <img 
             src="https://images.unsplash.com/photo-1559225306-3f60aa7b39a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" 
             alt="helping" 
-            class="h-full object-cover relative opacity-80"
+            class="h-full w-full object-cover relative opacity-80"
         />
 
         <div class="absolute text-white top-1/3 left-2/3 -translate-x-3/4 w-3/4 -translate-y-3/4 bg">
@@ -95,22 +129,24 @@
 
 
     <!-- Watch our Recent Online Events -->
-    <section class="bg-orange-600 text-white p-5 py-14">
+    <section class="bg-orange-600 text-white p-5 py-24">
         <h1 class="text-4xl py-5">Watch Our Recent Online Events</h1>
         <img src=https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="event" />
         <h1 class="my-5"><a href="#" class="underline font-bold text-2xl">Campaign Nonviolence National Conference 2022</a></h1>
         <p class="tracking-wider pb-8">Featuring Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nisi voluptas veritatis cupiditate inventore aspernatur omnis est ipsam dolor doloribus nobis, odit quisquam officiis voluptatem odio officia et quaerat enim?</p>
-        <img src="assets/rock-nonviolence-logo.png" alt="logo" class="pb-5"/>
-        <img src="assets/rumble-logo.png" alt="other-logo" />
+        <div class="md:flex w-full">
+            <img src="assets/rock-nonviolence-logo.png" alt="logo" class="pb-5 md:w-1/2 md:pr-5"/>
+            <img src="assets/rumble-logo.png" alt="other-logo" class="pb-5 md:w-1/2 md:pl-5"/>
+        </div>
     </section>
 
 
     <!-- book choices and such -->
-    <section class="p-10">
-        <div>
-            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1798&q=80" alt="book" />
+    <section class="p-10 py-24 md:flex">
+        <div class="md:w-1/2">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1798&q=80" alt="book" class="md:h-full md:object-cover"/>
         </div>
-        <div class="space-y-8 text-right">
+        <div class="space-y-8 text-right md:p-8 md:w-1/2">
             <h2 class="text-2xl">STUDY. LEARN. ENGAGE</h2>
             <h1 class="font-bold text-3xl">Books + StudyGroups</h1>
             <p clas="text-lg">Nonviolent Seaford has a book club that meets weekly.</p>
@@ -120,18 +156,18 @@
     </section>
 
     <!-- contact join and donate -->
-    <section>
-        <a href="/contact.html">
+    <section class="md:w-full md:flex">
+        <a href="/contact.html" class="md:w-1/3">
             <div class="w-full flex justify-center place-items-center h-32 bg-slate-900 text-white hover:opacity-80 duration-200">
                 <h1 class="text-3xl">CONTACT</h1>
             </div>
         </a>
-        <a href="/contact.html">
+        <a href="/contact.html" class="md:w-1/3">
             <div class="w-full flex justify-center place-items-center h-32 bg-slate-300 text-black hover:bg-slate-400 duration-200">
                 <h1 class="text-3xl">JOIN</h1>
             </div>
         </a>
-        <a href="/contact.html">
+        <a href="/contact.html" class="md:w-1/3">
             <div class="w-full flex justify-center place-items-center h-32 bg-orange-700 text-white hover:opacity-80 duration-200">
                 <h1 class="text-3xl">DONATE</h1>
             </div>
@@ -139,7 +175,7 @@
     </section>
 
 
-    <footer class="w-full flex flex-col p-8 bg-slate-900 text-white">
+    <footer class="w-full flex flex-col p-8 bg-slate-900 text-white ">
         <ul class="flex space-x-3 text-4xl justify-center my-6">
             <li>
                 <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -149,43 +185,45 @@
             </li>
         </ul>
 
-        <ul class="flex flex-col mt-5">
-            <h1 class="text-yellow-500 font-bold">About</h1>
-            <li>
-                <a href="#">302-123-1234</a>
-            </li>
-            <li>
-                <a href="#">info@nonviolent.com</a>
-            </li>
-        </ul>
-        
-        <ul class="flex flex-col mt-5">
-            <h1 class="text-yellow-500 font-bold">Get Involved</h1>
-            <li>
-                <a href="#">stuffClickOn</a>
-            </li>
-            <li>
-                <a href="#">stClickOn</a>
-            </li>
-            <li>
-                <a href="#">stufftolickOn</a>
-            </li>
-            <li>
-                <a href="#">sfftoClOn</a>
-            </li>
-        </ul>
-        
-        <ul class="flex flex-col mt-5">
-            <h1 class="text-yellow-500 font-bold">More Info</h1>
-            <li>
-                <a href="#">CheckThisSiteOut</a>
-            </li>
-            <li>
-                <a href="#">ThisisCoolToo</a>
-            </li>
-        </ul>
-        
-        
+        <div class="md:w-full md:flex md:flex-row md:justify-between md:px-24">
+            <ul class="flex flex-col mt-5">
+                <h1 class="text-yellow-500 font-bold">About</h1>
+                <li>
+                    <a href="#">302-123-1234</a>
+                </li>
+                <li>
+                    <a href="#">info@nonviolent.com</a>
+                </li>
+            </ul>
+            
+            <ul class="flex flex-col mt-5">
+                <h1 class="text-yellow-500 font-bold">Get Involved</h1>
+                <li>
+                    <a href="#">stuffClickOn</a>
+                </li>
+                <li>
+                    <a href="#">stClickOn</a>
+                </li>
+                <li>
+                    <a href="#">stufftolickOn</a>
+                </li>
+                <li>
+                    <a href="#">sfftoClOn</a>
+                </li>
+            </ul>
+            
+            <ul class="flex flex-col mt-5">
+                <h1 class="text-yellow-500 font-bold">More Info</h1>
+                <li>
+                    <a href="#">CheckThisSiteOut</a>
+                </li>
+                <li>
+                    <a href="#">ThisisCoolToo</a>
+                </li>
+            </ul>
+        </div>
+            
+            
 
 
     </footer>
